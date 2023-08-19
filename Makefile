@@ -1,5 +1,12 @@
+USER=ubuntu
+HOST=blog
+DIR=/var/www/blog/public
+
 build:
 	hugo
+
+buildd:
+	hugo -D
 
 serve:
 	hugo serve
@@ -10,7 +17,13 @@ served:
 
 #build and serve
 bs:
-	make build && make serve
+	make buildd && make serve
+
+bd:
+	make build && make deploy
+
+bdd:
+	make buildd && make deploy
 
 deploy:
-	./deploy
+	rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
