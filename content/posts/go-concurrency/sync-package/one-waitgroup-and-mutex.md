@@ -1,8 +1,10 @@
 ---
 title: "Go Concurrency 1.1 - Sync Package | WaitGroup & Mutex"
+slug: "sync-package-waitgroup-and-mutex"
 date: 2023-07-21T19:44:05+05:30
+summary: "Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between these languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some commonly used tools from this package."
 ---
-Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between these languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some of the commonly used tools from this package.
+Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between these languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some commonly used tools from this package.
 #### WaitGroup
 It is an excellent abstraction to wait for a set of Go routines when you either don't care about the result or have other ways to collect the result
 ```Go
