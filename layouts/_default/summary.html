@@ -1,22 +1,6 @@
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <nav aria-label="breadcrumb" class="breadcrumb">
-        {{ $len := (len .Ancestors) }}
-        {{ range $i, $e := .Ancestors.Reverse }}
-          {{ if or .IsHome .IsPage }}
-          {{ else }}
-            <span>
-              <a href="{{ .Permalink }}" class="link black ">
-                {{ .LinkTitle }}
-              </a>
-              <!-- Add ">" for all elements but leaf -->
-              {{ if le ($i) (sub $len  2)  }}
-              <span> > </span>
-              {{ end }}
-            </span>
-          {{ end }}
-        {{ end }}
-    </nav>
+  {{ .Render "breadcrumb" }}
 <!--     <span class="f6 db">{{ .FirstSection.Title }} > {{ .CurrentSection.Title }} </span>-->
     <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
