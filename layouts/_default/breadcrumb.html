@@ -1,0 +1,19 @@
+<div>
+    <nav aria-label="breadcrumb" class="breadcrumb">
+        {{ $len := (len .Ancestors) }}
+        {{ range $i, $e := .Ancestors.Reverse }}
+        {{ if or .IsHome .IsPage }}
+        {{ else }}
+        <span>
+              <a href="{{ .Permalink }}" class="link black ">
+                {{ .LinkTitle }}
+              </a>
+            <!-- Add ">" for all elements but leaf -->
+              {{ if le ($i) (sub $len  2)  }}
+              <span> > </span>
+              {{ end }}
+            </span>
+        {{ end }}
+        {{ end }}
+    </nav>
+</div>
