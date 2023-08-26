@@ -1,7 +1,6 @@
 ---
 title: "Go Concurrency 1.2 - Sync Package | Once & Pool"
-date: 2023-08-02T18:42:25+05:30
-draft: true
+date: 2023-07-24T19:44:05+05:30
 summary: "Continuing the sync package series, in this post I talk about the type `sync.Once` and `sync.Pool` available 
 under the sync package. While `sync.Once` offers a `once.Do(func() {})` signature that is perfect for initialising most 
 of the clients in your application. While `sync.Pool{New: func() interface{}}`, lets you do things like warming up, 

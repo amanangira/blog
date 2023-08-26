@@ -1,7 +1,6 @@
 ---
 title: "Go Concurrency 2.1 - Patterns and Idioms | Fundamentals"
-date: 2023-08-02T18:48:33+05:30
-draft: true
+date: 2023-08-08T18:48:33+05:30
 summary: "In this post we talk about some of the common patterns used in Go community that are going to prove handy 
 when working with Go routines. The topics covered are Confinement, Infinite for loop with exit case, Loop with default 
 case and Loop with Range and the default case pattern."
