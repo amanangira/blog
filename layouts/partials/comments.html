@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
+    console.log('{{ getenv "HUGO_COMMENT_GH_AUTHOR" }}');
     const gitment = new Gitment({
         // id: 'Your page ID', // optional
         owner: '{{ getenv "HUGO_COMMENT_GH_AUTHOR" }}',
