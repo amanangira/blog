@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
-    console.log('{{ getenv "HUGO_COMMENT_GH_AUTHOR" }}');
+    console.log('{{ .Params.gh_comment_id }}');
     const gitment = new Gitment({
-        // id: 'Your page ID', // optional
+        id: '{{ .Params.gh_comment_id }}', // optional
         owner: '{{ getenv "HUGO_COMMENT_GH_AUTHOR" }}',
         repo: '{{ getenv "HUGO_COMMENT_GH_REPO" }}',
         oauth: {
