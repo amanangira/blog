@@ -1,0 +1,7 @@
+- Add menu on home page
+  - Submenus to consider 
+    - Archive 
+    - Categories 
+    - Tags 
+    - Sections
+    - About 
