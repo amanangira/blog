@@ -1,19 +1,9 @@
 <!-- Gitment Assets -->
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    console.log('{{ .Params.gh_comment_id }}');
-    const gitment = new Gitment({
-        id: '{{ .Params.gh_comment_id }}', // optional
-        owner: '{{ getenv "HUGO_COMMENT_GH_AUTHOR" }}',
-        repo: '{{ getenv "HUGO_COMMENT_GH_REPO" }}',
-        oauth: {
-            client_id: '{{ getenv "HUGO_COMMENT_GH_CLIENT_ID" }}',
-            client_secret: '{{ getenv "HUGO_COMMENT_GH_CLIENT_SECRET" }}',
-        },
-        // ...
-        // For more available options, check out the documentation below
-    })
-
-    gitment.render('comments')
+<script src="https://utteranc.es/client.js"
+        repo="amanangira/blog-comments"
+        issue-term="pathname"
+        label="utterance"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
 </script>
