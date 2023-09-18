@@ -7,8 +7,8 @@ case and Loop with Range and the default case pattern."
 gh_comment_id: 4
 ---
 #### Confinement
-If multiple Go routines, are responsible for update in dedicate memory spaces, then you don't have to worry about the safe operation. The main advantage of this would be to avoid the mental overhead of memory sharing or communicating over shared memory as well as side stepping the potential issues possible because of synchronisation.
-Synchronisation comes withw a cost.
+If multiple goroutines are responsible for update in dedicate memory spaces then you don't have to worry about the safe operation. The main advantage of this would be to avoid the mental overhead of memory sharing or communicating over shared memory as well as side stepping the potential issues possible because of synchronisation.
+Synchronisation comes with a cost.
 
 ```Go
 package main
@@ -41,10 +41,10 @@ func main() {
 ```
 [Playground](https://go.dev/play/p/MCKm1mTRPsD)
 
-Since both the Go routines are operating on different sub set of slices, these would to be said to be confined under their respective Go routines.
+Since both the goroutines are operating on different sub set of slices, these would to be said to be confined under their respective goroutines.
 
 #### For-Select loop
-This is probably going to be the most used pattern for you. It pairs a always true `for` loop statement with a `select` statement. Remember what `select` does from [[Go Concurrency#Go Concurrency - Sync Package - Part 3]]?
+This is probably going to be the most used pattern for you. It functions as an always true `for` loop statement with a `select` statement. Remember what `select` does from [[Go Concurrency#Go Concurrency - Sync Package - Part 3]]?
 
 ##### Infinite for loop with exit case
 ```Go

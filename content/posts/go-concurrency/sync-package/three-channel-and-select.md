@@ -10,7 +10,7 @@ gh_comment_id: 3
 
 ### Go Concurrency 1.3 - Sync Package | Channels & Select
 #### Channels
-While these can be used to synchronise memory access, they are best used to communicate information between go routines. One of the main advantage that channels offer is composition. Different parts of your program don't have to require the information about each other, only a reference to a channel can be used to pass information around.
+While these can be used to synchronise memory access they are best used to communicate information between goroutines. One of the main advantage that channels offer is composition. Different parts of your program don't have to know about the inner workings of each other, only a reference to a channel can be used to pass information around.
 Channels can be declared only for unidirectional data flow support as well i.e. a channel that could only receive or send data.
 
 ```Go
@@ -78,7 +78,7 @@ func main() {
 
 ##### Application
 - Composing together program snippets.
-- Passing data between different Go routines.
+- Passing data between different goroutines.
 
 
 #### Select
@@ -174,8 +174,8 @@ func main() {
 [Playground](https://go.dev/play/p/M94KV15I2p_o)
 
 1. I have instantiated a high starting point to start calculating prime number.
-2. I have setup a very brute technique of finding whether the provided number is prime number.
-3. I have setup a reader to read from `primeNumerStream` and print and until signalled otherwise.
+2. I have set up a very brute technique of finding whether the provided number is prime number.
+3. I have set up a reader to read from `primeNumerStream` and print and until signalled otherwise.
 4. I have used the `done` channel to wait for the Go routines to finish.
 
 ##### Application
