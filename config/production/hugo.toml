@@ -1,1 +1,2 @@
-googleAnalytics = 'G-3CYNBEZTXH'
+[Params]
+    googleAnalytics = "G-3CYNBEZTXH"
