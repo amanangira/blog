@@ -4,7 +4,6 @@ date: 2023-08-08T18:48:33+05:30
 summary: "In this post we talk about some of the common patterns used in Go community that are going to prove handy 
 when working with Go routines. The topics covered are Confinement, Infinite for loop with exit case, Loop with default 
 case and Loop with Range and the default case pattern."
-gh_comment_id: 4
 ---
 #### Confinement
 If multiple goroutines are responsible for update in dedicate memory spaces then you don't have to worry about the safe operation. The main advantage of this would be to avoid the mental overhead of memory sharing or communicating over shared memory as well as side stepping the potential issues possible because of synchronisation.

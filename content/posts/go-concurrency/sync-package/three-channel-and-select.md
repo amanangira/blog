@@ -4,7 +4,6 @@ date: 2023-08-01T19:44:05+05:30
 summary: "In this post I talk about the type `Channels` and `Select` available under the sync package. While 
 `Channels` can be used for both communication between concurrent processes, they can also be used in synchronisation by 
 sharing the memory address. `Select` allows you to pseudo-randomly resolve one of the available/ready case."
-gh_comment_id: 3
 ---
 
 ### Go Concurrency 1.3 - Sync Package | Channels & Select
