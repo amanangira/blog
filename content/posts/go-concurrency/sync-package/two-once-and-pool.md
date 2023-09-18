@@ -9,7 +9,9 @@ gh_comment_id: 2
 ---
 ### Go Concurrency 1.2 - Sync Package | Once & Pool
 #### Once
-It is a type that internally utilises the sync primitives to ensure that only one call happens to the passed in function. Note - it does not care about the unique functions passed in, and only cares about the invocation on the `sync.Once.Do(f func())` method.
+It is a type that internally utilises the sync primitives to ensure that only one call happens to the passed in function. 
+
+Note - it does not care about the unique functions passed in, and only cares about the invocation on the `sync.Once.Do(f func())` method.
 
 ```Go 
 package main
