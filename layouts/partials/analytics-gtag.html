@@ -4,7 +4,5 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    console.log("Loaded GTag", '{{ .Site.Params.googleAnalytics }}');
     gtag('config', '{{ .Site.Params.googleAnalytics }}');
 </script>
