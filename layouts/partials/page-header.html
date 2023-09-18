@@ -15,11 +15,17 @@
         {{ end }}
       </div>
     </div>
+    {{ if eq hugo.Environment "development" }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
   </header>
 {{ else }}
   <header>
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
+    {{ if eq hugo.Environment "development" }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
   </header>
 {{ end }}
