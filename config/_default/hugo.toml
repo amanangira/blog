@@ -3,6 +3,13 @@ languageCode = 'en-us'
 title = 'amanreasoned'
 theme = 'ananke'
 enableRobotsTXT = true
-sectionPagesMenu = 'main'
-
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
 [Params]
