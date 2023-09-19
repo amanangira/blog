@@ -2,5 +2,7 @@ baseURL = 'https://amanreasoned.com/'
 languageCode = 'en-us'
 title = 'amanreasoned'
 theme = 'ananke'
+enableRobotsTXT = true
+sectionPagesMenu = 'main'
 
 [Params]

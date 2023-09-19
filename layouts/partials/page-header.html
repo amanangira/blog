@@ -24,7 +24,7 @@
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
-    {{ if eq hugo.Environment "production" }}
+    {{ if eq (getenv "HUGO_ENV") "production" }}
       {{ partial "analytics-gtag.html" . }}
     {{ end }}
   </header>
