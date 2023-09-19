@@ -2,7 +2,7 @@
 title: "Go Concurrency 2.1 - Patterns and Idioms | Fundamentals"
 date: 2023-08-08T18:48:33+05:30
 summary: "In this post we talk about some of the common patterns used in Go community that are going to prove handy 
-when working with Go routines. The topics covered are Confinement, Infinite for loop with exit case, Loop with default 
+when working with goroutines. The topics covered are Confinement, Infinite for loop with exit case, Loop with default 
 case and Loop with Range and the default case pattern."
 ---
 #### Confinement
@@ -117,12 +117,12 @@ printStream := func(done, stream chan interface{}) {
 ```
 
 
-Additionally in the above examples you would notice the `done` channel. Go routines are not garbage collected by the runtime, so regardless of their small footprint, we don't want to leave them dangling.
+Additionally in the above examples you would notice the `done` channelGoroutines are not garbage collected by the runtime, so regardless of their small footprint, we don't want to leave them dangling.
 For this, one of the very common pattern is to pass an additional channel to signal termination of work.
 
-#### Important rules when dealing with Go Routines
+#### Important rules when dealing with goroutines
 - The channel owner should
     - Instantiate the channel.
-    - Perform writes, or pass the ownership to another Go routines.
+    - Perform writes, or pass the ownership to another goroutines.
     - Close the channel.
-- Passing a signal channel to indicate termination from parent to the child Go routine. 
+- Passing a signal channel to indicate termination from parent to the child goroutine. 

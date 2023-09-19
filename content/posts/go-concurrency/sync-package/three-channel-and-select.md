@@ -42,7 +42,7 @@ func main() {
 [Playground](https://go.dev/play/p/IZxsRxaO46P)
 1. We declare a channel of type `int`. Can merge declaration and instantiation in a single line as well using the `:=`  operator along with `make` keyword.
 2. Declare unidirectional channel i.e a channel that receives data. Most of the time you won't see unidirectional channels in directional but instead in function argument or return types, i.e because Go implicitly converts the passed in channel.
-3. Channel is closed in a deferred state before use. This is a common idiom. Note closing a channel signals all Go routines listening to it.
+3. Channel is closed in a deferred state before use. This is a common idiom. Note closing a channel signals all goroutines listening to it.
 4. Sending data into a channel.
 5. Reading from channel. Note - this is a blocking statement and would remain blocked unless the channel being read from receives a value.
 
@@ -119,7 +119,7 @@ func main() {
 In the above program, within few executions you will either of c or d being picked up. Try tweaking with the time of one and see what happens?
 
 
-Another example, using channels to signal termination of Go routine.
+Another example, using channels to signal termination of goroutine.
 ```Go
 package main
 
@@ -174,7 +174,7 @@ func main() {
 1. I have instantiated a high starting point to start calculating prime number.
 2. I have set up a very brute technique of finding whether the provided number is prime number.
 3. I have set up a reader to read from `primeNumerStream` and print and until signalled otherwise.
-4. I have used the `done` channel to wait for the Go routines to finish.
+4. I have used the `done` channel to wait for the goroutines to finish.
 
 ##### Application
 - Composing together channel streams.

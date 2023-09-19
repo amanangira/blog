@@ -3,10 +3,11 @@ title: "Go Concurrency 1.1 - Sync Package | WaitGroup & Mutex"
 slug: "sync-package-waitgroup-and-mutex"
 date: 2023-07-17T19:44:05+05:30
 summary: "Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between these languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some commonly used tools from this package."
+menu: "about"
 ---
 Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between other languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some commonly used tools from this package.
 #### WaitGroup
-It is an excellent abstraction to wait for a set of Go routines when you either don't care about the result or have other ways to collect the result
+It is an excellent abstraction to wait for a set of goroutines when you either don't care about the result or have other ways to collect the result
 ```Go
 package main  
   
@@ -22,20 +23,20 @@ func main() {
       wg.Add(1)  
       go func(wg *sync.WaitGroup, i int) {  
          defer wg.Done()  
-         fmt.Printf("\n Go routine %d going to sleep", i)  
+         fmt.Printf("\n goroutine %d going to sleep", i)  
          time.Sleep(time.Second * 1)  
       }(&wg, i)  
    }  
   
    wg.Wait()  
-   fmt.Printf("\nAll Go routines complete.")  
+   fmt.Printf("\nAll goroutines complete.")  
 }
 ```
 
 [Go Playground](https://go.dev/play/p/PHY10Dbx4n9)
 
 ##### Application
-To fire up multiple Go routines and wait for them to complete before moving forward.
+To fire up multiple goroutines and wait for them to complete before moving forward.
 - Firing of multiple queries part of a common result that needs to be returned.
 - Firing of multiple HTTP request and waiting for them to complete.
 
@@ -87,6 +88,6 @@ func main() {
 [Go Playground](https://go.dev/play/p/4ULKz0YJ00p)
 
 ##### Application
-Any resource that is being modified/accessed by multiple Go routines.
-- Appending errors from multiple queries together from a set of Go routines part of the current scope.
-- Appending results together from a set of Go routines performing HTTP requests.  
+Any resource that is being modified/accessed by multiple goroutines.
+- Appending errors from multiple queries together from a set of goroutines part of the current scope.
+- Appending results together from a set of goroutines performing HTTP requests.  
