@@ -2,6 +2,14 @@
 title: "Go Concurrency 2.2 - Patterns and Idioms | Error handling"
 date: 2023-09-18T18:08:12+05:30
 summary: "In this post we see how to check for errors on responses being read from a channel and let the goroutine with the right information decide how to handle the error."
+categories:
+  - Web Development
+series:
+  - 'Go Concurrency: Common Patterns'
+tags:
+  - Development
+  - Go
+  - Concurrency
 ---
 #### Error Handling
 The rule of thumb is to relay the error to the goroutine that has the right information on what to do about it. In most of the cases, this is going to be your `main` (parent) goroutine. One common way of streamlining the errors and handling them is to wrap them in a certain type.
