@@ -12,4 +12,12 @@ enableRobotsTXT = true
     name = 'Posts'
     pageRef = '/posts'
     weight = 20
-[Params]
+[[menu.main]]
+    name = 'Series'
+    pageRef = '/series'
+    weight = 20
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
