@@ -11,6 +11,8 @@ tags:
   - Development
   - Go
   - Concurrency 
+featured_image: "image1.jpg"
+featured_image_caption: "Caption Blah Blah"
 ---
 Memory access synchronisation is one of the popular ways to achieve concurrency in various languages. `Sync` package is one of the major difference between other languages and Go. The package provides you new set of concurrency primitives with wide abilities on top of the memory access synchronisation primitives. I am going to briefly talk about some commonly used tools from this package.
 #### WaitGroup
