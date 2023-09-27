@@ -18,7 +18,7 @@
           <ol>
             {{ range $term.Pages }}
               <a href="{{ .RelPermalink }}" class="link dim">
-                <li>
+                <li class="black">
                   <div class="nested-links f5 lh-copy nested-copy-line-height flex justify-between">
                       <div class="black">
                         {{ .Title }}
@@ -29,7 +29,6 @@
                   </div>
                 </li>
               </a>
-              <!--     <span class="f6 db">{{ .FirstSection.Title }} > {{ .CurrentSection.Title }} </span>-->
             {{ end }}
           </ol>
         </div>
