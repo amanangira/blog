@@ -1,7 +1,6 @@
 ---
 title: "Go Concurrency 2.4 - Patterns and Idioms | Pipelines"
 date: 2023-10-08T11:16:30+05:30
-draft: true
 summary: "Generator pattern is an effective way to handle conversion of concrete slice/array types to a data stream in 
 the for of channels. These become absolutely handy when you start working with sync primitives in Go. Using this pattern 
 also helps in predictability and readability across application. "

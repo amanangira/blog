@@ -1,7 +1,6 @@
 ---
 title: "Go Concurrency 2.3 - Patterns and Idioms | Pipelines"
 date: 2023-10-01T10:49:48+05:30
-draft: true
 summary: "Pipeline design pattern is not limited to concurrency and is something that every programmer has followed or 
 implemented, even if unknowingly. A pipeline could contain one or more stages, ideally limiting single responsibility to 
 each stage. This allows different stages to be rearranged, to be added or removed."
