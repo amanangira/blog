@@ -8,7 +8,7 @@ each stage. This allows different stages to be rearranged, to be added or remove
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Sync Package'
+  - 'Go Concurrency: Common Patterns'
 tags:
   - Development
   - Go
