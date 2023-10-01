@@ -51,7 +51,7 @@ func main() {
 Since both the goroutines are operating on different sub set of slices, these would to be said to be confined under their respective goroutines.
 
 #### For-Select loop
-This is probably going to be the most used pattern for you. It functions as an always true `for` loop statement with a `select` statement. Remember what `select` does from [Go Concurrency - Sync Package - Part 3]({{< ref "/three-channel-and-select" >}})? 
+This is probably going to be the most used pattern for you. It functions as an always true `for` loop statement with a `select` statement. Remember what `select` does from [Go Concurrency - Sync Package - Part 3]({{< ref "/3-channel-and-select" >}})? 
 
 ##### Infinite for loop with exit case
 ```Go
