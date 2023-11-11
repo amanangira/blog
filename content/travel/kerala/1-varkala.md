@@ -1,0 +1,72 @@
+---
+title: "Varkala"
+date: 2023-10-10T18:48:33+05:30
+summary: "This post covers my second vacation cum workation in Varkala."
+draft: true
+---
+- High level plan
+    - 8th Sunday - 11th Wednesday Varkala
+    - 11th (Wednesday) -13th (Friday) - Kumarakom
+    - 13th (Friday) - 15th (Sunday) - Kochi
+- 22nd October Sunday
+    - Kochi (Terminal 1) - Del (Terminal 3) Air Asia 08:35 - 11:50
+    - Rescheduled from 15th October
+- Pettah Railway Station in TRV, closest to Airport
+- 9th October
+    - Enjoyed Sadhya meal with fish curry and payasum @ Thiramala Aunty near the lost hostel.
+    - Went to Ayur Spa with Irma
+        - Great experience, paid 1300/- per person for 1 hours of full body massage. Different types of oils used in terms of smell and feeling (for eg - mint), all of them were heated, got familiar with the langot massage undies. Trained staff and professional staff.
+        - My masseuse was Ishan, he used to work in Ayur Noida with Dr Shashank Malik
+    - Enquired about surfing @ Rausta Surfing School with master Saiju
+        - Seems like a great professional guy.
+        - Negotiated a price of 1500/- for 3 classes per person for two persons.
+        - The payment is required to be made upfront on the first day of the class.
+    - Picked laundry load @ Zostel for 250/-
+- 10th October, Tuesday
+    - Cooked breakfast omlette and coffee w/ Irma
+    - Switched to the prettier and cooler standard room, The Lost Hostel, Varkala - 202
+    - Left for [[Haritha Toddy Parlour]]
+    - Rented scooty from [[The lost Hostel, Varkala]]
+    - Went to [[Jattayu Earth center]]
+    - Went to [Ziet](https://maps.app.goo.gl/rmK97uK7uin7r32w8)
+        - Had Mandi - Arabian style biryani
+- Surfing schools
+    - Ruasta
+    - Moonshine Surfing school
+- Food
+    - Abba Restaurant - on Varkala Cliff, had Shashuka with Vijay
+    - Cafe Del Mar
+        - Margheritta Pizza
+        - Prawn Fry - Super spicy, asked to remove shell
+        - Mojito with Passion Fruit - tasty, 350/-
+    - Clafouti - Frugal Restaurant
+        - Arabiata Spegatti
+        - Beef Momos
+        - Prawn Curry
+        - Onion Garlic Cheeze Toast
+        - Offers beer as well off the menu - 350/- for Budweiser Magnum
+    - Hotel Suprabhatam - https://maps.google.com/?cid=10155983518014733686&entry=gps
+        - Filter Coffee - 18/-
+    - Cafe Sarwaa
+      - 
+- Varkala, Club One -
+    - Ajengo Fort
+    - Light House
+- Kaapil Beach - sea at one side and backwaters at one side
+- Varkala Railway station road
+    - Hotel Suprabhatam
+        - Location -
+        - One of those places with canteen like prices
+        - We enjoyed filter coffee and dall wada
+    - Football Kit shop
+        - Got Man Utd - Black Ronaldo 07 Jersey for 300/-
+    - [Ziet](https://maps.app.goo.gl/rmK97uK7uin7r32w8)
+        - Had Mandi - Arabian style biryani
+    - Auto ride to this market should take about 80-120/- depending on your negotiation skill and time of the season.
+- Alli akkam beach - Good night sky, very isolated, consider going in a group
+- Jattayu Earth Center
+    - Pretty ride
+    - Sunset
+    - Laal vada
+- 14th October, Saturday
+    - Book in Soul, along side Zostel 
