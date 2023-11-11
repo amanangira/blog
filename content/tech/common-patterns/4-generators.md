@@ -1,6 +1,6 @@
 ---
 title: "Go Concurrency 2.4 - Patterns and Idioms | Pipelines"
-date: 2023-10-08T11:16:30+05:30
+date: 2023-10-24T11:16:30+05:30
 summary: "Generator pattern is an effective way to handle conversion of concrete slice/array types to a data stream in 
 the for of channels. These become absolutely handy when you start working with sync primitives in Go. Using this pattern 
 also helps in predictability and readability across application. "
@@ -13,7 +13,8 @@ tags:
   - Go
   - Concurrency
   - Functional Programming
-  - DRY Principles 
+  - DRY Principles
+draft: true
 ---
 Generators are functions that convert a set of values into a stream of values on a channel. Their primary purpose is to 
 help work with channels and make programs composable. We are going to use some trivial examples to see how they might not 
