@@ -6,7 +6,7 @@
         {{ else }}
         <span>
               <a href="{{ .Permalink }}" class="link black ">
-                {{ .LinkTitle }}
+                {{ .LinkTitle | singularize }}
               </a>
             <!-- Add ">" for all elements but leaf -->
               {{ if le ($i) (sub $len  2)  }}
