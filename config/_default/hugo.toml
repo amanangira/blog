@@ -9,14 +9,9 @@ enableRobotsTXT = true
     pageRef = '/'
     weight = 10
 [[menu.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'Tech'
+    pageRef = '/tech'
     weight = 20
-[[menu.main]]
-    name = 'Series'
-    pageRef = '/series'
-    weight = 20
-
 [taxonomies]
   category = 'categories'
   series = 'series'
