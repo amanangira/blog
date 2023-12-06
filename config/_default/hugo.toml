@@ -1,7 +1,7 @@
 baseURL = 'https://amanreasoned.com/'
 languageCode = 'en-us'
 title = 'amanreasoned'
-theme = 'ananke'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableRobotsTXT = true
 [menu]
 [[menu.main]]
