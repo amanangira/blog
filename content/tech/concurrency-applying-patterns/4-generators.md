@@ -14,6 +14,7 @@ tags:
   - Concurrency
   - Functional Programming
   - DRY Principles
+draft: true
 ---
 Generators are functions that convert a set of values into a stream of values on a channel. Their primary purpose is to 
 help work with channels and make programs composable. We are going to use some trivial examples to see how they might not 

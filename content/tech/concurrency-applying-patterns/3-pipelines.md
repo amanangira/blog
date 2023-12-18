@@ -14,6 +14,7 @@ tags:
   - Concurrency
   - Functional Programming
   - DRY Principles 
+draft: true
 ---
 #### Pipelines
 Pipelines are a tool to abstract away logic that doesn't matter to immediate work in hand. It constitutes of primarily 
