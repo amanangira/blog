@@ -11,6 +11,8 @@ tags:
   - Go
   - Concurrency
 ---
+{{/* TODO - Update links with Hugo equivalent - ref */}}
+
 With [Go Concurrency - Common patterns | Fundamentals](https://www.amanreasoned.com/tech/common-patterns/1-fundamentals/), we learnt some basic, composable and idiomatic patterns that can be combined
 to solve different problems. In this blog, we are going to see how these common patterns can quickly begin to fit together and help us solve error handling when working with goroutines.
 
