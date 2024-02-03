@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'amanreasoned'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableRobotsTXT = true
+cleanDestinationDir=true
+pluralizelisttitles=false
 [menu]
 [[menu.main]]
     name = 'Home'
