@@ -1,3 +1,4 @@
 public/*
 .vercel
 .env
+.env*.local
