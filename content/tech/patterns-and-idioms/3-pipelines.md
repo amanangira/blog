@@ -14,7 +14,7 @@ tags:
   - Concurrency
   - Functional Programming
   - DRY Principles 
-draft: true
+draft: false
 ---
 #### Pipelines
 Pipelines are a tool to abstract away logic that doesn't matter to immediate work in hand. It constitutes of primarily 
@@ -98,5 +98,5 @@ func main() {
 - In this approach as soon an element is processed by one stage, it enters the other.
 
 ##### Channels and pipelines
-[Channels]({{< ref "../sync-package/3-channel-and-select" >}}) fit perfectly to be used along with pipeline design pattern. They allow read or write of values of same kind onto channels. This makes them highly composable following the DRY principle.  
+[Channels]({{< ref "../sync-package/3-channels-and-select" >}}) fit perfectly to be used along with pipeline design pattern. They allow read or write of values of same kind onto channels. This makes them highly composable following the DRY principle.  
 
