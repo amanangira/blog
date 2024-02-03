@@ -5,6 +5,10 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableRobotsTXT = true
 cleanDestinationDir=true
 pluralizelisttitles=false
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 [menu]
 [[menu.main]]
     name = 'Home'
