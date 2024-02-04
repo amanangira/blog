@@ -1,6 +1,6 @@
 ---
 title: "Go Concurrency 2.5 - Patterns and Idioms | Fan Out Fan In "
-date: 2023-10-15T11:36:02+05:30
+date: 2024-02-05T04:36:02+05:30
 categories:
   - Web Development
 series:
@@ -10,7 +10,6 @@ tags:
   - Go
   - Concurrency
   - Functional Programming
-draft: true
 ---
 
 So far we have discussed how Pipelines pattern can be leveraged to re-use and compose programs together. But what if I 
