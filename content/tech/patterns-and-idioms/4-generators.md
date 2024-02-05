@@ -7,7 +7,7 @@ also helps in predictability and readability across application. "
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Common Patterns'
+  - 'Go Concurrency: Patterns and Idioms'
 tags:
   - Development
   - Go

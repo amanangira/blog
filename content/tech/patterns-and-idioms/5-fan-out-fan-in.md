@@ -4,7 +4,7 @@ date: 2024-02-05T04:36:02+05:30
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Common Patterns'
+  - 'Go Concurrency: Patterns and Idioms'
 tags:
   - Development
   - Go

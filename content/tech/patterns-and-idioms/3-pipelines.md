@@ -7,7 +7,7 @@ each stage. This allows different stages to be rearranged, to be added or remove
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Common Patterns'
+  - 'Go Concurrency: Patterns and Idioms'
 tags:
   - Development
   - Go

@@ -7,7 +7,7 @@ case and Loop with Range and the default case pattern."
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Common Patterns'
+  - 'Go Concurrency: Patterns and Idioms'
 tags:
   - Development
   - Go

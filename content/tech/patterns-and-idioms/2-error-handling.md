@@ -5,7 +5,7 @@ summary: "In this post we see how to check for errors on responses being read fr
 categories:
   - Web Development
 series:
-  - 'Go Concurrency: Common Patterns'
+  - 'Go Concurrency: Patterns and Idioms'
 tags:
   - Development
   - Go
