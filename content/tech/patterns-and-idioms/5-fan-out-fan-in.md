@@ -10,6 +10,7 @@ tags:
   - Go
   - Concurrency
   - Functional Programming
+draft: false
 ---
 
 So far we have discussed how Pipelines pattern can be leveraged to re-use and compose programs together. But what if I 
