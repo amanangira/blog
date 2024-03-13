@@ -1,7 +1,7 @@
 baseURL = 'https://amanreasoned.com/'
 languageCode = 'en-us'
 title = 'amanreasoned'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = 'ananke'
 enableRobotsTXT = true
 cleanDestinationDir=true
 pluralizelisttitles=false
@@ -17,6 +17,10 @@ pluralizelisttitles=false
 [[menu.main]]
     name = 'Tech'
     pageRef = '/tech'
+    weight = 20
+[[menu.main]]
+    name = 'Series'
+    pageRef = '/series'
     weight = 20
 [taxonomies]
   category = 'categories'
