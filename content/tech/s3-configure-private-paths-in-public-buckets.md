@@ -31,6 +31,8 @@ have a domain suited public bucket and, you don't want to add another bucket jus
 The solution was to use AWS S3 to store the reports, limit the access using S3 bucket policy and use pre-signed URLs 
 with defined expiration to access the reports.
 
+![Diagram](/static/tech/s3-private-path-with-lambda-diagram.png)
+
 ### Implementation
 
 #### Step 1. Setup the CDK project
@@ -283,7 +285,7 @@ To do this run `make boostrap` from the root of your project. Now finally, the p
 Run `make deploy` to begin the deployment, make sure your AWS CLI credentials are already configured. Once deployed, login to your AWS console, navigate to 
 the lambda function, update the test payload to an empty string `""`,  and click on the test button to invoke the lambda function.
 
-![Lambda page screenshot](/static/tech/s3-uploader-lambda-screenshot.png)
+![Lambda page screenshot](/static/tech/s3-private-path-with-lambda.png)
 
 
 ### Conclusion
