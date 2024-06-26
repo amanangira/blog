@@ -1,6 +1,6 @@
 ---
 title: "Go Function Arguments Are Always Pass by Value"
-date: 2024-06-26T19:10:36+05:30
+date: 2024-06-26T15:10:36+05:30
 summary: This article demonstrates different ways in which pointers can be passed to functions as arguments and how they can affect the original variable or create new versions of the pointer. Each approach has its use cases and trade-offs depending on the specific requirements of a program.
 slug: "go-function-arguments-are-always-pass-by-value"
 categories:
