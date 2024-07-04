@@ -16,8 +16,10 @@
       </div>
     </div>
     {{ if eq hugo.Environment "production" }}
-      {{ partial "analytics-gtag.html" . }}
+      <!--    Inject iZooto script   -->
       {{ partial "izooto.html" . }}
+      <!--   Inject Google tag   -->
+      {{ partial "analytics-gtag.html" . }}
     {{ end }}
   </header>
 {{ else }}

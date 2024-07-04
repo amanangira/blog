@@ -38,10 +38,12 @@
 
 	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
 
-    <!-- Gtag  -->
-<!--    {{ if eq hugo.Environment "production" }}-->
-      {{ partial "analytics-gtag.html" . }}
-<!--    {{ end }}-->
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+        <!--    Inject iZooto script   -->
+        {{ partial "izooto.html" . }}
+        <!--   Inject Google tag   -->
+        {{ partial "analytics-gtag.html" . }}
+    {{ end }}
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
