@@ -17,6 +17,7 @@
     </div>
     {{ if eq hugo.Environment "production" }}
       {{ partial "analytics-gtag.html" . }}
+      {{ partial "izooto.html" . }}
     {{ end }}
   </header>
 {{ else }}
