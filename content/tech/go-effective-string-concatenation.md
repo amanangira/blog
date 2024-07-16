@@ -3,6 +3,8 @@ title: "Go Effective String Concatenation"
 date: 2024-07-08T06:00:00+05:30
 slug: "go-effective-string-concatenation"
 draft: false
+summary: This article discusses the benefits and drawbacks of using string concatenation in Go. It explains that while concatenating strings can be an efficient way to build large text outputs, it can lead to performance issues if not managed carefully. 
+ The author provides tips on how to optimize this technique by pre-allocating memory for large amounts of text and reusing the same buffer to avoid unnecessary reallocations. 
 categories:
   - Web Development
 tags:

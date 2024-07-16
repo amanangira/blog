@@ -3,6 +3,8 @@ title: "A Guide to Configuring Private Paths and Lifecycle Rules with AWS CDK an
 date: 2024-02-19T13:55:52+05:30
 draft: false
 slug: "configuring-private-paths-lifecycle-rules-aws-cdk-go-lambda"
+summary: This article explains how to set up private paths, lifecycle rules, and AWS CDK in your Go-based AWS Lambda function. It provides a step-by-step guide on configuring these elements, including instructions on creating a Lambda handler function and deploying
+  the code using the AWS CDK. 
 categories:
   - Web Development
   - AWS 
