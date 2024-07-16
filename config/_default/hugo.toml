@@ -26,3 +26,5 @@ pluralizelisttitles=false
   category = 'categories'
   series = 'series'
   tag = 'tags'
+[params]
+  favicon = "favicon.jpeg"
