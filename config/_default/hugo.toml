@@ -13,15 +13,19 @@ pluralizelisttitles=false
 [[menu.main]]
     name = 'Home'
     pageRef = '/'
-    weight = 10
+    weight = 1
 [[menu.main]]
     name = 'Tech'
     pageRef = '/tech'
-    weight = 20
+    weight = 2
 [[menu.main]]
     name = 'Series'
     pageRef = '/series'
-    weight = 20
+    weight = 3
+[[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 4
 [taxonomies]
   category = 'categories'
   series = 'series'
